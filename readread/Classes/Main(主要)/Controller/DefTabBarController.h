@@ -1,5 +1,5 @@
 //
-//  SceneDelegate.h
+//  DefTabBarController.h
 //  readread
 //
 //  Created by hs on 2020/12/12.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (strong, nonatomic) UIWindow * window;
+@interface DefTabBarController : UITabBarController
 
 @end
 
+NS_ASSUME_NONNULL_END

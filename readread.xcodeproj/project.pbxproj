@@ -8,13 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		4538F4FE2584DAA700E65AB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4538F4FD2584DAA700E65AB0 /* AppDelegate.m */; };
-		4538F5012584DAA700E65AB0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4538F5002584DAA700E65AB0 /* SceneDelegate.m */; };
-		4538F5042584DAA700E65AB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4538F5032584DAA700E65AB0 /* ViewController.m */; };
-		4538F5072584DAA700E65AB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4538F5052584DAA700E65AB0 /* Main.storyboard */; };
 		4538F5092584DAA900E65AB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4538F5082584DAA900E65AB0 /* Assets.xcassets */; };
 		4538F50C2584DAA900E65AB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4538F50A2584DAA900E65AB0 /* LaunchScreen.storyboard */; };
 		4538F50F2584DAA900E65AB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4538F50E2584DAA900E65AB0 /* main.m */; };
 		4538F5192584DAAA00E65AB0 /* readreadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4538F5182584DAAA00E65AB0 /* readreadUITests.m */; };
+		4538F53C2584DB8500E65AB0 /* BookShelfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4538F5272584DB8500E65AB0 /* BookShelfViewController.m */; };
+		4538F53E2584DB8500E65AB0 /* BookStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4538F5332584DB8500E65AB0 /* BookStoreViewController.m */; };
+		4538F53F2584DB8500E65AB0 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4538F5392584DB8500E65AB0 /* MineViewController.m */; };
+		4538F5452584F37F00E65AB0 /* DefTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4538F5442584F37F00E65AB0 /* DefTabBarController.m */; };
+		4538F54B2586315800E65AB0 /* MTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4538F54A2586315800E65AB0 /* MTitleButton.m */; };
+		4538F55A2586475C00E65AB0 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 4538F5592586475C00E65AB0 /* UIView+Frame.m */; };
+		4538F561258650C800E65AB0 /* ReadBasicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4538F560258650C800E65AB0 /* ReadBasicTableViewController.m */; };
+		4538F5642586535600E65AB0 /* MaleChannelTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4538F5632586535600E65AB0 /* MaleChannelTableViewController.m */; };
+		4538F5672586539F00E65AB0 /* FemalChannelTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4538F5662586539F00E65AB0 /* FemalChannelTableViewController.m */; };
+		4538F56A258653AC00E65AB0 /* CompletedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4538F569258653AC00E65AB0 /* CompletedTableViewController.m */; };
+		4538F56D258653BF00E65AB0 /* RankListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4538F56C258653BF00E65AB0 /* RankListTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,11 +39,6 @@
 		4538F4F92584DAA700E65AB0 /* readread.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = readread.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4538F4FC2584DAA700E65AB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4538F4FD2584DAA700E65AB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4538F4FF2584DAA700E65AB0 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		4538F5002584DAA700E65AB0 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		4538F5022584DAA700E65AB0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4538F5032584DAA700E65AB0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4538F5062584DAA700E65AB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4538F5082584DAA900E65AB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4538F50B2584DAA900E65AB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4538F50D2584DAA900E65AB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,6 +46,29 @@
 		4538F5142584DAAA00E65AB0 /* readreadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = readreadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4538F5182584DAAA00E65AB0 /* readreadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = readreadUITests.m; sourceTree = "<group>"; };
 		4538F51A2584DAAA00E65AB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4538F5262584DB8500E65AB0 /* BookShelfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookShelfViewController.h; sourceTree = "<group>"; };
+		4538F5272584DB8500E65AB0 /* BookShelfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookShelfViewController.m; sourceTree = "<group>"; };
+		4538F5322584DB8500E65AB0 /* BookStoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookStoreViewController.h; sourceTree = "<group>"; };
+		4538F5332584DB8500E65AB0 /* BookStoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookStoreViewController.m; sourceTree = "<group>"; };
+		4538F5382584DB8500E65AB0 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		4538F5392584DB8500E65AB0 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		4538F5432584F37F00E65AB0 /* DefTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefTabBarController.h; sourceTree = "<group>"; };
+		4538F5442584F37F00E65AB0 /* DefTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefTabBarController.m; sourceTree = "<group>"; };
+		4538F5492586315800E65AB0 /* MTitleButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTitleButton.h; sourceTree = "<group>"; };
+		4538F54A2586315800E65AB0 /* MTitleButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTitleButton.m; sourceTree = "<group>"; };
+		4538F54D2586334000E65AB0 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4538F5582586475C00E65AB0 /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		4538F5592586475C00E65AB0 /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		4538F55F258650C800E65AB0 /* ReadBasicTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReadBasicTableViewController.h; sourceTree = "<group>"; };
+		4538F560258650C800E65AB0 /* ReadBasicTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadBasicTableViewController.m; sourceTree = "<group>"; };
+		4538F5622586535600E65AB0 /* MaleChannelTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaleChannelTableViewController.h; sourceTree = "<group>"; };
+		4538F5632586535600E65AB0 /* MaleChannelTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaleChannelTableViewController.m; sourceTree = "<group>"; };
+		4538F5652586539F00E65AB0 /* FemalChannelTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FemalChannelTableViewController.h; sourceTree = "<group>"; };
+		4538F5662586539F00E65AB0 /* FemalChannelTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FemalChannelTableViewController.m; sourceTree = "<group>"; };
+		4538F568258653AC00E65AB0 /* CompletedTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompletedTableViewController.h; sourceTree = "<group>"; };
+		4538F569258653AC00E65AB0 /* CompletedTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompletedTableViewController.m; sourceTree = "<group>"; };
+		4538F56B258653BF00E65AB0 /* RankListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RankListTableViewController.h; sourceTree = "<group>"; };
+		4538F56C258653BF00E65AB0 /* RankListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RankListTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,13 +110,12 @@
 		4538F4FB2584DAA700E65AB0 /* readread */ = {
 			isa = PBXGroup;
 			children = (
+				4538F55B2586503000E65AB0 /* Main */,
+				4538F5562586472000E65AB0 /* Other */,
+				4538F54D2586334000E65AB0 /* PrefixHeader.pch */,
+				4538F5232584DB5000E65AB0 /* Classes */,
 				4538F4FC2584DAA700E65AB0 /* AppDelegate.h */,
 				4538F4FD2584DAA700E65AB0 /* AppDelegate.m */,
-				4538F4FF2584DAA700E65AB0 /* SceneDelegate.h */,
-				4538F5002584DAA700E65AB0 /* SceneDelegate.m */,
-				4538F5022584DAA700E65AB0 /* ViewController.h */,
-				4538F5032584DAA700E65AB0 /* ViewController.m */,
-				4538F5052584DAA700E65AB0 /* Main.storyboard */,
 				4538F5082584DAA900E65AB0 /* Assets.xcassets */,
 				4538F50A2584DAA900E65AB0 /* LaunchScreen.storyboard */,
 				4538F50D2584DAA900E65AB0 /* Info.plist */,
@@ -106,6 +131,209 @@
 				4538F51A2584DAAA00E65AB0 /* Info.plist */,
 			);
 			path = readreadUITests;
+			sourceTree = "<group>";
+		};
+		4538F5232584DB5000E65AB0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4538F5242584DB8500E65AB0 /* HWBookshelf(书架) */,
+				4538F5302584DB8500E65AB0 /* HWStore(书城) */,
+				4538F52A2584DB8500E65AB0 /* Main(主要) */,
+				4538F5362584DB8500E65AB0 /* Mine(我的) */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4538F5242584DB8500E65AB0 /* HWBookshelf(书架) */ = {
+			isa = PBXGroup;
+			children = (
+				4538F5252584DB8500E65AB0 /* Controller */,
+				4538F5282584DB8500E65AB0 /* Model */,
+				4538F5292584DB8500E65AB0 /* View */,
+			);
+			path = "HWBookshelf(书架)";
+			sourceTree = "<group>";
+		};
+		4538F5252584DB8500E65AB0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4538F5262584DB8500E65AB0 /* BookShelfViewController.h */,
+				4538F5272584DB8500E65AB0 /* BookShelfViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4538F5282584DB8500E65AB0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4538F5292584DB8500E65AB0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4538F52A2584DB8500E65AB0 /* Main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+				4538F52B2584DB8500E65AB0 /* Controller */,
+				4538F52E2584DB8500E65AB0 /* Model */,
+				4538F52F2584DB8500E65AB0 /* View */,
+			);
+			path = "Main(主要)";
+			sourceTree = "<group>";
+		};
+		4538F52B2584DB8500E65AB0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4538F5432584F37F00E65AB0 /* DefTabBarController.h */,
+				4538F5442584F37F00E65AB0 /* DefTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4538F52E2584DB8500E65AB0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4538F52F2584DB8500E65AB0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4538F5492586315800E65AB0 /* MTitleButton.h */,
+				4538F54A2586315800E65AB0 /* MTitleButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4538F5302584DB8500E65AB0 /* HWStore(书城) */ = {
+			isa = PBXGroup;
+			children = (
+				4538F5312584DB8500E65AB0 /* Controller */,
+				4538F5342584DB8500E65AB0 /* Model */,
+				4538F5352584DB8500E65AB0 /* View */,
+			);
+			path = "HWStore(书城)";
+			sourceTree = "<group>";
+		};
+		4538F5312584DB8500E65AB0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4538F5322584DB8500E65AB0 /* BookStoreViewController.h */,
+				4538F5332584DB8500E65AB0 /* BookStoreViewController.m */,
+				4538F5622586535600E65AB0 /* MaleChannelTableViewController.h */,
+				4538F5632586535600E65AB0 /* MaleChannelTableViewController.m */,
+				4538F5652586539F00E65AB0 /* FemalChannelTableViewController.h */,
+				4538F5662586539F00E65AB0 /* FemalChannelTableViewController.m */,
+				4538F568258653AC00E65AB0 /* CompletedTableViewController.h */,
+				4538F569258653AC00E65AB0 /* CompletedTableViewController.m */,
+				4538F56B258653BF00E65AB0 /* RankListTableViewController.h */,
+				4538F56C258653BF00E65AB0 /* RankListTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4538F5342584DB8500E65AB0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4538F5352584DB8500E65AB0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4538F5362584DB8500E65AB0 /* Mine(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				4538F5372584DB8500E65AB0 /* Controller */,
+				4538F53A2584DB8500E65AB0 /* Model */,
+				4538F53B2584DB8500E65AB0 /* View */,
+			);
+			path = "Mine(我的)";
+			sourceTree = "<group>";
+		};
+		4538F5372584DB8500E65AB0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4538F5382584DB8500E65AB0 /* MineViewController.h */,
+				4538F5392584DB8500E65AB0 /* MineViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4538F53A2584DB8500E65AB0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4538F53B2584DB8500E65AB0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4538F5562586472000E65AB0 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				4538F5572586472800E65AB0 /* Categories */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		4538F5572586472800E65AB0 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				4538F5582586475C00E65AB0 /* UIView+Frame.h */,
+				4538F5592586475C00E65AB0 /* UIView+Frame.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		4538F55B2586503000E65AB0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4538F55E2586509D00E65AB0 /* View */,
+				4538F55D2586509300E65AB0 /* Model */,
+				4538F55C2586508A00E65AB0 /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4538F55C2586508A00E65AB0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4538F55F258650C800E65AB0 /* ReadBasicTableViewController.h */,
+				4538F560258650C800E65AB0 /* ReadBasicTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4538F55D2586509300E65AB0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4538F55E2586509D00E65AB0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,7 +418,6 @@
 			files = (
 				4538F50C2584DAA900E65AB0 /* LaunchScreen.storyboard in Resources */,
 				4538F5092584DAA900E65AB0 /* Assets.xcassets in Resources */,
-				4538F5072584DAA700E65AB0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,10 +435,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4538F5042584DAA700E65AB0 /* ViewController.m in Sources */,
+				4538F55A2586475C00E65AB0 /* UIView+Frame.m in Sources */,
+				4538F53F2584DB8500E65AB0 /* MineViewController.m in Sources */,
+				4538F53E2584DB8500E65AB0 /* BookStoreViewController.m in Sources */,
+				4538F56D258653BF00E65AB0 /* RankListTableViewController.m in Sources */,
+				4538F53C2584DB8500E65AB0 /* BookShelfViewController.m in Sources */,
+				4538F54B2586315800E65AB0 /* MTitleButton.m in Sources */,
+				4538F5672586539F00E65AB0 /* FemalChannelTableViewController.m in Sources */,
 				4538F4FE2584DAA700E65AB0 /* AppDelegate.m in Sources */,
+				4538F5642586535600E65AB0 /* MaleChannelTableViewController.m in Sources */,
+				4538F5452584F37F00E65AB0 /* DefTabBarController.m in Sources */,
+				4538F56A258653AC00E65AB0 /* CompletedTableViewController.m in Sources */,
+				4538F561258650C800E65AB0 /* ReadBasicTableViewController.m in Sources */,
 				4538F50F2584DAA900E65AB0 /* main.m in Sources */,
-				4538F5012584DAA700E65AB0 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,14 +470,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4538F5052584DAA700E65AB0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4538F5062584DAA700E65AB0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4538F50A2584DAA900E65AB0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -368,7 +596,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = readread/PrefixHeader.pch;
 				INFOPLIST_FILE = readread/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -384,7 +615,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = readread/PrefixHeader.pch;
 				INFOPLIST_FILE = readread/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

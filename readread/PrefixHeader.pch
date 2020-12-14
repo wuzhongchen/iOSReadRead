@@ -1,0 +1,19 @@
+//
+//  PrefixHeader.pch
+//  readread
+//
+//  Created by hs on 2020/12/13.
+//  Copyright © 2020 hs. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+/***********屏幕适配*************/
+#define YYhScreenW [UIScreen mainScreen].bounds.size.width
+#define YYHScreenH [UIScreen mainScreen].bounds.size.height
+
+//快速访问x, y, width, height.
+#import "UIView+Frame.h"
+
+#endif /* PrefixHeader_pch */
